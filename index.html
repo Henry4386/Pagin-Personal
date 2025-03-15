@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto web #1</title>
+    <link rel="stylesheet" href="proyecto1.css">
+</head>
+<body>
+    <header>
+        <h1>Jose Henry Aguilar Quino</h1>
+        <img src="Foto.jpeg" class="forma" width="100">
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola! Soy Henry, estudiante de Ingeniería en Sistemas. Me interesa el desarrollo de software,<br>
+         la electrónica digital y la optimización de procesos. Actualmente, aprendiendo Java, bases de <br> 
+         datosy autómatas, y me gusta trabajar en proyectos donde pueda aplicar estos conocimientos.</p>
+         <p>Mi objetivo es seguir mejorando como programador y aplicar mis conocimientos en proyectos <br> reales que resuelvan problemas prácticos.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <li> Paginas Web Personal</li>
+        <li> Logins</li>
+    </section>
+
+    <section id="contacto">
+        <h2>Informacion</h2>
+        <li> Telefono: 32394308</li>
+        <br>
+        <li> Correo: henryaguiar4080gmail.com</li>
+        <br>
+        <li>Direccion: Chimaltenango, San Martin Jilotepeque</li>
+    </section>
+
+    <section id="Habilidades">
+        <h2>Habilidades</h2>
+        <li> Responsable</li>
+        <br>
+        <li> Trabajo en Equipo</li>
+        <br>
+        <li>Autonomia</li>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        
+        <form action="tu_archivo.php" method="POST">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+    
+
+    <script src="proyecto1.js"></script>
+</body>
+</html>
